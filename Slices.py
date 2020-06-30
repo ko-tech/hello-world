@@ -33,15 +33,14 @@ def loops():
         print(food)
 
 # 4-13: Buffet:
-buffet_foods = ("rice", "spaghetti", "soup", "salad", "chicken")
+def buffet_foods():
+    buffet_foods = ("rice", "spaghetti", "soup", "salad", "chicken")
 
+    print("This is the original menu:")
+    for food in buffet_foods:
+        print(food)
 
-
-print("This is the original menu:")
-for food in buffet_foods:
-    print(food)
-
-buffet_foods = ("rice", "lentils", "soup", "beans", "chicken")
-print("\nThis is the new menu:")
-for food in buffet_foods:
-    print(food)
+    buffet_foods = ("rice", "lentils", "soup", "beans", "chicken")
+    print("\nThis is the new menu:")
+    for food in buffet_foods:
+        print(food)
